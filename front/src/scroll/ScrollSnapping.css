@@ -1,0 +1,53 @@
+.scroll-container {
+  padding: 0%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow: auto;
+
+}
+.title1{
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 2%;
+  color: rgb(249, 249, 249);
+}
+.main-body-text{
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  margin-bottom: 2%;
+  color: rgb(249, 249, 249);
+}
+.card-on-image {
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 75%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity and color to your preference */
+  border-radius: 10px; /* Adjust the border radius to your preference */
+  opacity: 0.8; /* Adjust the opacity to your preference */
+}
+
+
+.car-image {
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.car1 {
+  background-image: url('./rav4.jpg');
+
+}
+
+
+.car2 {
+  background-image: url('./rx 350.jpg');
+}.car3 {
+  background-image: url('./wheel.jpg');
+}
