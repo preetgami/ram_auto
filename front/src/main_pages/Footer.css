@@ -1,0 +1,28 @@
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #121212;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin-bottom: 80px; /* Adjust this value to leave space for the footer */
+}

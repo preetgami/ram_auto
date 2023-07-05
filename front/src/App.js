@@ -5,6 +5,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import Footer from './main_pages/Footer';
 
 import Home from "./main_pages/Home"
 import About from "./main_pages/About"
@@ -45,6 +46,8 @@ function App() {
         {routes}
 
       </main>
+
+
     </Router>
   );
 }

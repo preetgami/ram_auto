@@ -1,33 +1,33 @@
 .scroll-container {
-  padding: 0%;
+  padding: 0px;
   height: 100vh;
+  width: 100vw;
+  margin: 0px;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   overflow: auto;
-
+  position: relative;
 }
+
 .title1{
   font-family: Arial,sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 2%;
-  color: rgb(249, 249, 249);
+  color: rgb(62, 60, 60);
 }
 .main-body-text{
   font-family: Arial,sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 2%;
-  color: rgb(249, 249, 249);
+  color: rgb(61, 54, 54);
 }
-.card-on-image {
-  top: 0;
-  left: 0;
-  padding: 20px;
-  width: 75%;
-  text-align: left;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity and color to your preference */
-  border-radius: 10px; /* Adjust the border radius to your preference */
-  opacity: 0.8; /* Adjust the opacity to your preference */
+
+.main-body-text_footer{
+  background-color: #f8f8f8;
+  padding: 16px 0;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
 }
 
 
@@ -41,13 +41,89 @@
 }
 
 .car1 {
-  background-image: url('./rav4.jpg');
+  background-image: url('./engi.jpg');
 
 }
 
 
 .car2 {
-  background-image: url('./rx 350.jpg');
+  background-image: url('./wsheel.jpg');
 }.car3 {
-  background-image: url('./wheel.jpg');
+  background-image: url('./rx\ 350.jpg');
 }
+.car4 {
+  background-image: url('./shocks.jpg');
+}
+.car5 {
+  background-image: url('./oil.jpg');
+}
+.car6 {
+  background-image: url('./highlander.jpg');
+}
+
+.card-on-image {
+  transform: translate(2%, 0%);
+  padding: 20px;
+  width: 80%;
+  height: 70%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.card-on-image h3 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #333;
+}
+
+
+@media (min-width: 768px) {
+  .card-on-image {
+  transform: translate(50%, 20%);
+  padding: 20px;
+  width: 50%;
+  height: 30%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+ 
+}.nav-links-card {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 10;
+  text-align: center;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 2%;
+
+  color: rgb(0, 0, 0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links-card li {
+  margin: 10px;
+  background-color: rgb(221, 255, 0);
+
+}
+
+.nav-links-card li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links-card li a:hover {
+  color: #ed2222;
+}
+
