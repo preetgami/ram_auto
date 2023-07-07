@@ -94,8 +94,9 @@ const ScrollSnapping = () => {
 
                                 Phone: +254 53 2061941,  Email: info@ramautogarage.com
                                 <br />
-                                <a target="_blank" href="https://www.google.com/maps/place/Ram+Auto+Garage/@0.512616,35.274325,14z/data=!4m6!3m5!1s0x178101bb7148d8d7:0x593e5e868397351c!8m2!3d0.5126161!4d35.2743247!16s%2Fg%2F1hhjxkq31?hl=en&entry=ttu"> Address: Eldoret,KE </a>
-
+                                <p className='address'>
+                                <a target="_blank" href="https://www.google.com/maps/place/Ram+Auto+Garage/@0.512616,35.274325,14z/data=!4m6!3m5!1s0x178101bb7148d8d7:0x593e5e868397351c!8m2!3d0.5126161!4d35.2743247!16s%2Fg%2F1hhjxkq31?hl=en&entry=ttu"> (CLICK)Address: Eldoret,KE </a>
+                                </p>
 
 
 

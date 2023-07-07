@@ -9,24 +9,23 @@
 }
 
 .title1{
-  font-family: Arial,sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 2%;
   color: rgb(62, 60, 60);
 }
 .main-body-text{
-  font-family: Arial,sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 2%;
   color: rgb(61, 54, 54);
 }
 
 .main-body-text_footer{
-  background-color: #f8f8f8;
-  padding: 16px 0;
+  background-color: #ffffff;
+  padding: 0px 0;
+  height: 50%;
   color: #333;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -41,24 +40,60 @@
 }
 
 .car1 {
-  background-image: url('./engi.jpg');
+  background-color: #000000;
+  background-image: linear-gradient(
+    to left, transparent, #000000
+  ), url("./shocks.jpg");
+  background-repeat: no-repeat;
 
 }
 
 
 .car2 {
-  background-image: url('./wsheel.jpg');
+  /*background-image: url('./wsheel.jpg');*/
+  background-color: #000000;
+   background-image: linear-gradient(
+    to left, transparent, #000000
+  ), url("./wsheel.jpg");
+  background-repeat: no-repeat;
+
 }.car3 {
-  background-image: url('./rx\ 350.jpg');
+  background-image: url('./engi.jpg');
+  background-image: linear-gradient(
+    to left, transparent, #000000
+  ), url("./engi.jpg");
+  background-repeat: no-repeat;
+
+  background-color: #000000;
+
 }
 .car4 {
-  background-image: url('./shocks.jpg');
+  /*background-image: url('./rx\ 350.jpg');*/
+
+  background-color: #000000;
+  background-image: linear-gradient(
+    to left, transparent, #000000
+  ), url("./rx\ 350.jpg");
+  background-repeat: no-repeat;
+
+
 }
 .car5 {
   background-image: url('./oil.jpg');
+  background-color: #000000;
+  background-image: linear-gradient(
+    to left, transparent, #000000
+  ), url("./oil.jpg");
+  background-repeat: no-repeat;
+
 }
 .car6 {
-  background-image: url('./highlander.jpg');
+  background-color: #000000;
+  background-image: linear-gradient(
+    to left, transparent, #000000
+  ), url("./highlander.jpg");
+  background-repeat: no-repeat;
+  /*background-image: url('./highlander.jpg');*/
 }
 
 .card-on-image {
@@ -80,13 +115,27 @@
 }
 
 
+
 @media (min-width: 768px) {
+  .title1{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 2%;
+  color: rgb(62, 60, 60);
+}
+.main-body-text{
+  font-size: 18px;
+  margin-bottom: 2%;
+  color: rgb(61, 54, 54);
+}
   .card-on-image {
   transform: translate(50%, 20%);
   padding: 20px;
   width: 50%;
+  color: #ffffff;
   height: 30%;
-  background-color: #ffffff;
+  background-color: #fdfdfd;
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   text-align: center;
@@ -103,9 +152,8 @@
   padding: 0px;
   margin: 10;
   text-align: center;
-  font-family: Arial,sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 2%;
 
   color: rgb(0, 0, 0);
@@ -127,3 +175,7 @@
   color: #ed2222;
 }
 
+.address:hover{
+    color: rgb(114, 110, 110);
+
+}

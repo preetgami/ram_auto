@@ -5,7 +5,6 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import Footer from './main_pages/Footer';
 
 import Home from "./main_pages/Home"
 import About from "./main_pages/About"
@@ -16,7 +15,8 @@ import Status from "./main_pages/Status"
 import Use from "./main_pages/Use"
 import MainNavigation from "./shared/Navigation/MainNavigation"
 import Tips from './main_pages/Tips';
-import Contact from './main_pages/Contact';
+import Contact from "./main_pages/Contact"
+import Contacts from './shared/contact/Contacts';
 
 //use should only be once logged in 
 //
@@ -41,6 +41,7 @@ function App() {
     <Router>
       {/* switch enables one route only to be used */}
       <MainNavigation />
+      <Contacts/>
       <main>
 
         {routes}
