@@ -12,19 +12,18 @@
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 2%;
-  color: rgb(62, 60, 60);
+  color: rgb(255, 255, 255);
 }
 .main-body-text{
   font-size: 16px;
   margin-bottom: 2%;
-  color: rgb(61, 54, 54);
+  color: rgb(255, 255, 255);
 }
 
 .main-body-text_footer{
-  background-color: #ffffff;
   padding: 0px 0;
   height: 50%;
-  color: #333;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
 }
@@ -40,13 +39,17 @@
 }
 
 .car1 {
+  
   background-color: #000000;
-  background-image: linear-gradient(
-    to left, transparent, #000000
-  ), url("./shocks.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("./shocks.jpg");
   background-repeat: no-repeat;
-
+  background-size: 150% 100%, cover;
+  background-position: left top;
 }
+
+
+
 
 
 .car2 {
@@ -101,7 +104,6 @@
   padding: 20px;
   width: 80%;
   height: 70%;
-  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   text-align: center;
@@ -114,35 +116,48 @@
   color: #333;
 }
 
+.about-us-main{
+  padding: 2%;
+}
 
-
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .title1{
   font-weight: bold;
-  font-size: 40px;
+  text-align: center;
+  font-size: 70px;
   margin-bottom: 2%;
-  color: rgb(62, 60, 60);
+  color: rgb(255, 255, 255);
 }
 .main-body-text{
-  font-size: 18px;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2;
+
   margin-bottom: 2%;
-  color: rgb(61, 54, 54);
+  color: rgb(255, 255, 255);
 }
   .card-on-image {
-  transform: translate(50%, 20%);
   padding: 20px;
-  width: 50%;
-  color: #ffffff;
-  height: 30%;
-  background-color: #fdfdfd;
+  width:60%;
+  height: 100%;
+  
 
+  color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  text-align: center;
-  opacity: 0.8;
+  text-align: left; 
 }
 
- 
+ .nav-links-card li {
+  margin: 10px;
+  font-size: 30PX;
+  background-color:#AAFF00;
+  border-radius: 1rem;
+
+
+
+}
 }.nav-links-card {
   list-style: none;
   padding: 0;
@@ -157,22 +172,30 @@
   margin-bottom: 2%;
 
   color: rgb(0, 0, 0);
-  transition: transform 0.3s ease-in-out;
 }
 
 .nav-links-card li {
   margin: 10px;
-  background-color: rgb(221, 255, 0);
+  font-size: 20PX;
+  background-color:#AAFF00;
+  border-radius: 1rem;
+
+
 
 }
 
 .nav-links-card li a {
   text-decoration: none;
   color: #333;
+  padding: 0.5rem;
+
+
 }
 
 .nav-links-card li a:hover {
-  color: #ed2222;
+  background-color:#AAFF00;
+
+
 }
 
 .address:hover{

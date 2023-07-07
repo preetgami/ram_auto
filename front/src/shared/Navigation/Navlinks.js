@@ -18,16 +18,7 @@ function Navlinks(props) {
               SERVICES
           </NavLink>
       </li>
-      <li>
-          <NavLink to="/tips" exact>
-              TIPS
-          </NavLink>
-      </li>
-      <li>
-          <NavLink to="/contact" exact>
-              Contact
-          </NavLink>
-      </li>
+     
         <li>
             <NavLink to="/use" exact>
                 How to Use

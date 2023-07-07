@@ -17,12 +17,9 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f4f3f3;
   color: #121212;
   padding: 20px;
   text-align: center;
 }
 
-body {
-  margin-bottom: 80px; /* Adjust this value to leave space for the footer */
-}

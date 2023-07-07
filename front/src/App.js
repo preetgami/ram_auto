@@ -6,16 +6,14 @@ import {
   Navigate
 } from "react-router-dom";
 
-import Home from "./main_pages/Home"
-import About from "./main_pages/About"
-import Services from "./main_pages/Services"
+import Home from "./main_pages/home/Home"
+import About from "./main_pages/about/About"
+import Services from "./main_pages/services/Services"
 
-import Auth from "./main_pages/Auth"
-import Status from "./main_pages/Status"
+import Auth from "./main_pages/auth/Auth"
+import Status from "./main_pages/status/Status"
 import Use from "./main_pages/Use"
 import MainNavigation from "./shared/Navigation/MainNavigation"
-import Tips from './main_pages/Tips';
-import Contact from "./main_pages/Contact"
 import Contacts from './shared/contact/Contacts';
 
 //use should only be once logged in 
@@ -31,8 +29,6 @@ function App() {
       <Route exact path="/services" element={<Services />} />
       <Route exact path="/use" element={<Use />} />
       <Route exact path="/user/:uid" element={<Status />} />
-      <Route exact path="/tips" element={<Tips />} />
-      <Route exact path="/contact" element={<Contact />} />
 
       <Route exact path="/auth" element={<Auth />} />
     </Routes>

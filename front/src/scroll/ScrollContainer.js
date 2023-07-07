@@ -2,6 +2,7 @@ import React from 'react';
 import './ScrollSnapping.css';
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import Review from '../reviews/Review';
 
 
 const ScrollSnapping = () => {
@@ -10,9 +11,13 @@ const ScrollSnapping = () => {
         <div className="scroll-container">
             <div className="car-image car1">
                 <div className='card-on-image'>
-                <h1 className='title1'>What we do? <br /></h1>
+                <h1 className='title1'> What we do? <br /></h1>
                 <p className='main-body-text'>
-                Ram Auto Garage is a full-service Auto Repair Shop providing quality car care in Eldoret. We provide honest and professional auto repair and vehicle maintenance services to the residents of Eldoret. Not only do we offer professional automotive service specializing in import and domestic maintenance, diagnostics and car repairs.
+                            Ram Auto Garage is a <span style={{ backgroundColor: "#AAFF00",color:"#000000"}}>full-service Auto Repair Shop </span> providing quality car care in Eldoret. 
+                          
+                            We provide <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}>honest
+                                and professional </span>auto repair and vehicle maintenance services to the residents of Eldoret.
+                            Not only do we offer professional automotive service <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}>specializing in import and domestic maintenance, diagnostics and car repairs.</span>
                 we understand that your vehicle is a major investment, and that is why we care for each customer’s vehicle as if it were our own.
                 </p>
                 </div>
@@ -28,11 +33,11 @@ const ScrollSnapping = () => {
 
                             </li>
                             <li>
-                                    <Link to="/tips">TIPS</Link>
+                                    <Link to="/auth">Log in</Link>
 
                             </li>
                             <li>
-                                    <Link to="/contact">CONTACT</Link>
+                                    <Link to="/about">About</Link>
 
                             </li>
                             
@@ -44,18 +49,19 @@ const ScrollSnapping = () => {
                     <div className='card-on-image'>
                         <h1 className='title1'>WHAT OUR CLIENTS SAY
                             <br /></h1>
-                        <p className='main-body-text'>
-                            stuff
-                        </p></div>
+                        <div className="main-body-text">
+                            <Review/>
+                        </div></div>
                 </div>
                 <div className="car-image car4">
                     <div className='card-on-image'>
                         <h1 className='title1'>Working Hours
                             <br /></h1>
                         <p className='main-body-text'>
-                            MONDAY-FRIDAY 8.00AM-5.00PM
+                            
+                            MONDAY-FRIDAY <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}>8.00AM-5.00PM</span>
                             <br/>
-                            SATURDAY 8.00AM-12.00PM
+                            SATURDAY <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}>8.00AM-12.00PM</span>
                         </p></div>
                 </div>
                 <div className="car-image car5">
@@ -63,7 +69,11 @@ const ScrollSnapping = () => {
                         <h1 className='title1'>About Us
                             <br /></h1>
                         <p className='main-body-text'>
-                            Ram auto garage was established since 1979 in eldoret. We are blessed that for over 30 years. The business has been built on repeat customers and their referral.... all without advertising!
+                            Ram auto garage was established since 
+                            <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}> 1979 </span> 
+                            in eldoret. We are blessed that 
+                            for <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}> over 35 years </span> 
+                             the business has been built on repeat customers and their referral.... all without advertising!
 
 
 
@@ -92,7 +102,8 @@ const ScrollSnapping = () => {
                                 POSTAL CODE : 30100
                                 <br />
 
-                                Phone: +254 53 2061941,  Email: info@ramautogarage.com
+                                Phone: 
+                                <span style={{ backgroundColor: "#AAFF00", color: "#000000" }}>+254 53 2061941</span>,  Email: info@ramautogarage.com
                                 <br />
                                 <p className='address'>
                                 <a target="_blank" href="https://www.google.com/maps/place/Ram+Auto+Garage/@0.512616,35.274325,14z/data=!4m6!3m5!1s0x178101bb7148d8d7:0x593e5e868397351c!8m2!3d0.5126161!4d35.2743247!16s%2Fg%2F1hhjxkq31?hl=en&entry=ttu"> (CLICK)Address: Eldoret,KE </a>
