@@ -2,31 +2,14 @@ import React from 'react'
 import "./card.css"
 import Modal from "./Modal"
 import { useState } from 'react'
-import { useParams } from 'react-router-dom'
 function Card(props) {
     const [opendescription, setopendescription] = useState(false)
 
-    //console.log(userId)
 
     const openDesc = () => setopendescription(true);
     const closeDesc = () => setopendescription(false);
 
-    const [showCart, setshowCart] = useState(false)
-    const w = <div className="card" >
-
-
-
-        <div className='flex'>
-            <img src="./brakedisc.jpg" alt="Product Image" className="card-image" />
-            <div className="card-content">
-
-                <h2 className="card-title">{props.title}</h2>
-                <p className="card-text">{props.description}</p>
-
-            </div>
-        </div>
-    </div >
-    //console.log(props)
+    
 
 
 

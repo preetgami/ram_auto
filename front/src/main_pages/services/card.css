@@ -66,6 +66,9 @@
 
 
 .card-title {
+  border-radius: 1rem;
+  padding: 5%;
+  
   background-color: #aaff00;
   font-size: 1.2rem;
   color: #000000;

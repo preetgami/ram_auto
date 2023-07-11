@@ -12,7 +12,6 @@ import Services from "./main_pages/services/Services"
 
 import Auth from "./main_pages/auth/Auth"
 import Status from "./main_pages/status/Status"
-import Use from "./main_pages/Use"
 import MainNavigation from "./shared/Navigation/MainNavigation"
 import Contacts from './shared/contact/Contacts';
 
@@ -27,8 +26,7 @@ function App() {
       <Route exact path="/"  element={<Home />} />
       <Route exact path="/about" element={<About />} />
       <Route exact path="/services" element={<Services />} />
-      <Route exact path="/use" element={<Use />} />
-      <Route exact path="/user/:uid" element={<Status />} />
+      <Route exact path="/status/:uid" element={<Status />} />
 
       <Route exact path="/auth" element={<Auth />} />
     </Routes>

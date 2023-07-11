@@ -13,7 +13,6 @@ function CardList(props) {
                         title={card.name}
                         description={card.description_breif}
                         description_main={card.description_main}
-                        id={card._id}
                     />
                 </div>
 
